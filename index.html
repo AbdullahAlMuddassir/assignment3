@@ -30,6 +30,8 @@
       @theme {
         --font-primary-font: "Manrope", sans-serif;
         --color-primary-color: rgba(171, 239, 95, 1);
+        --color-btnColor: rgba(171, 239, 95, 0.5);
+        --color-describe-color: #494949;
       }
     </style>
   </head>
@@ -124,7 +126,53 @@
       </nav>
     </header>
     <!-- Main -->
-    <main></main>
+    <main>
+      <!-- Hero section -->
+      <section>
+        <!-- Hero -->
+        <div class="hero bg-white py-10 lg:py-16">
+          <div class="hero-content text-center p-0">
+            <div class="max-w-4xl px-4">
+              <div class="mb-6">
+                <img
+                  class="w-auto h-auto mx-auto"
+                  src="./assets/banner.png"
+                  alt=""
+                />
+              </div>
+              <h1
+                class="text-3xl md:text-5xl lg:text-6xl font-extrabold leading-tight"
+              >
+                A barn house of this design has a <br />
+                striking appearance
+              </h1>
+              <p
+                class="py-6 font-medium text-gray-500 text-sm md:text-base lg:text-lg max-w-2xl mx-auto"
+              >
+                The barn house captivates with its blend of rustic charm and
+                modern sophistication, featuring weathered wood, sleek metal
+                accents, and large windows that flood the space with natural
+                light.
+              </p>
+              <!-- button -->
+              <div class="flex justify-center">
+                <a
+                  class="btn bg-btnColor rounded-full text-xs font-extrabold px-6"
+                  >View Details
+                  <div
+                    class="w-6 h-6 bg-[#ABEF5F] rounded-full flex justify-center items-center -rotate-45 ml-2"
+                  >
+                    <i
+                      class="fa-solid fa-arrow-right text-black text-[10px]"
+                    ></i>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <!-- footer -->
     <footer></footer>
   </body>
